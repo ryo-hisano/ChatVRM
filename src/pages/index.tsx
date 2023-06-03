@@ -31,7 +31,6 @@ const montserrat = Montserrat({
 
 export default function Home() {
   const { viewer } = useContext(ViewerContext);
-
   const [systemPrompt, setSystemPrompt] = useState(SYSTEM_PROMPT);
   const [openAiKey, setOpenAiKey] = useState("");
   const [koeiroParam, setKoeiroParam] = useState<KoeiroParam>(DEFAULT_PARAM);
